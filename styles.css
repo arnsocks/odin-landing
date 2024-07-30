@@ -67,10 +67,26 @@ ul {
 	flex: 1;
 }
 
+
+
+.hero-title {
+	font-size: 48px;
+	font-weight: 900;
+}
+
+.hero-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 16px;
+	align-items: flex-start;
+}
+
 .section-two {
 	text-align: center;
 	border-radius: 16px;
 }
+
 .section-two .container {
 	flex-direction: column;
 	width: 800px;
@@ -86,19 +102,28 @@ ul {
 	gap: 50px;
 }
 
-.hero-title {
-	font-size: 48px;
-	font-weight: 900;
+.section-three {
+	background-color: #E5E7EB;
 }
 
-.hero-text {
-	display: flex;
+.section-three .container {
+	width: 800px;
 	flex-direction: column;
-	justify-content: space-between;
-	gap: 16px;
-	align-items: flex-start;
 }
 
+.quote{
+	font-style: italic;
+	font-size: 36px;
+	font-weight: 300;
+	color: #1f2927;
+}
+
+.attrib {
+	align-self: flex-end;
+	font-weight: bold;
+	font-size: 24px;
+	padding-right: 50px;
+}
 button {
 	background-color: #3992F6;
 	color: white;
