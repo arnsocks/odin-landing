@@ -67,8 +67,6 @@ ul {
 	flex: 1;
 }
 
-
-
 .hero-title {
 	font-size: 48px;
 	font-weight: 900;
@@ -114,7 +112,7 @@ ul {
 .quote{
 	font-style: italic;
 	font-size: 36px;
-	font-weight: 300;
+	font-weight: 200;
 	color: #1f2927;
 }
 
@@ -124,10 +122,31 @@ ul {
 	font-size: 24px;
 	padding-right: 50px;
 }
+
+.section-four .container {
+	flex-basis: 600px;
+	background-color: #3992F6;
+	border-radius: 5px;
+	padding: 50px 100px;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+
+}
+
+.section-four button {
+	border: 1px solid white;
+}
+
+.cta-title {
+	font-weight: bold;
+	font-size: larger;
+}
 button {
 	background-color: #3992F6;
 	color: white;
-	padding: 8px 16px;
+	padding: 4px 16px;
 	border-radius: 5px;
 	border-style: none;
+	font-weight: bold;
 }
